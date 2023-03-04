@@ -1,0 +1,24 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "project for the npm course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santivides/npm-project.git"
+  },
+  "keywords": [],
+  "author": "santiago vides <santivides01@gmial.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/santivides/npm-project#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
